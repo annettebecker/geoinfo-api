@@ -1,5 +1,6 @@
 # KSwe SoSe 2017 - Aufgabe 8
 [![Build Status](https://travis-ci.org/annettebecker/geoinfo-api.svg?branch=master)](https://travis-ci.org/annettebecker/geoinfo-api)
+
 Debugging und Continuous Integration.
 
 ## Vorgehensweise
