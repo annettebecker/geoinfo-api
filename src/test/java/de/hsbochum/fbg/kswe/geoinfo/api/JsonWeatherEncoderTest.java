@@ -20,11 +20,13 @@ public class JsonWeatherEncoderTest {
         w.setTemp(22.3f);
         w.setWindSpeed(1.3f);
         String json = encoder.encode(w);
-        
+                
         //validate the JSON
         Assert.assertThat(json, CoreMatchers.containsString("phenomena"));
         Assert.assertThat(json, CoreMatchers.containsString("22.3"));
         Assert.assertThat(json, CoreMatchers.containsString("C"));
     }
+    
+    
     
 }
